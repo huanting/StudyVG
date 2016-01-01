@@ -21,4 +21,10 @@ Drawing1：
 1、以library project方式引用 TouchVG
 2、so文件必须放在Drawing1\TouchVG\src\main\jniLibs下面，不然在android studio上找不到so文件
 
+
+
+
+2016/1/1
+Win32Demo需要使用CLion运行，CLion需要使用TDM-GCC-64才可以编译通过，不然会报文件错误。
+
    
