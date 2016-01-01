@@ -1,0 +1,24 @@
+1。svn地址：https://anting/svn/DrawShow
+2、Android studio  版本：141.2343905
+3、JDK 7u45
+4、NDK ndk-r10e
+5、Cygwin
+
+
+Touch VG  https://github.com/rhcad/vgandroid   （jni library project date: Oct 21, 2015）
+Touch VG demo： https://github.com/rhcad/AndroidDrawing (demo)
+libirary	https://github.com/rhcad/vgcore (编译so  date： Oct 13, 2015)
+
+编译so：
+	1、必须使用MSYS才可以
+	2、运行MSYS（MinGW->MSYS）
+	3、切换到目录：TouchVg\vgandroid
+	4、执行./build.sh -B
+	5、so文件生成在目录：TouchVg\vgandroid\TouchVG\libs\armeabi
+
+
+Drawing1：
+1、以library project方式引用 TouchVG
+2、so文件必须放在Drawing1\TouchVG\src\main\jniLibs下面，不然在android studio上找不到so文件
+
+   

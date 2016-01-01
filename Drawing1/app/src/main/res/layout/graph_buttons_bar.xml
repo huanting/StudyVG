@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+    <ImageButton
+        android:id="@+id/btn_circle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/circle"
+        android:src="@drawable/tb_style_circle"
+        android:background="@drawable/button_selector"/>
+
+
+    <ImageButton
+        android:id="@+id/btn_bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/background"
+        android:src="@drawable/bg_select"
+        android:background="@drawable/button_selector"/>
+
+    <ImageButton
+        android:id="@+id/btn_select"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/select"
+        android:background="@drawable/button_selector"/>
+
+
+
+</LinearLayout>

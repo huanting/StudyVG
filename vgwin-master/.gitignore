@@ -1,0 +1,57 @@
+#OS junk files
+[Tt]humbs.db
+*.DS_Store
+*.bak*
+*~
+._*
+*.lock
+*.swp
+*.out
+*.tmp
+*.o
+*.d
+profile
+
+#Xcode files
+#This ignores everything inside a *.xcodeproj except the project.pbxproj
+*.log
+xcuserdata
+xcshareddata
+
+*.pbxuser
+*.mode2v3
+*.mode1v3
+*.xcworkspace
+
+#do pod install yourself
+Pods/*
+
+#MSVS files
+*.ncb
+*.opt
+*.suo
+*.user
+*.aps
+*.obj
+*.*sdf
+ipch
+
+#Ellipse and ADT files
+.metadata
+bin
+gen
+obj
+gdb.setup
+gdbserver
+
+#Project files
+[Bb]uild/
+CppDepend*
+*.cdproj
+*.ch*
+*.hh*
+*_wrap.*
+ios/output
+android/TouchVG/src/rhcad/touchvg/core
+wpf/touchvglib/core
+*.so

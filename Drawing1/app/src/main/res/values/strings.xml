@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Drawing1</string>
+    <string name="colorpicker">颜色</string>
+    <string name="snapshot">截屏</string>
+
+    <!-- 以下来自TouchVG -->
+
+    <string name="shape_too_small">图形太小，请重新绘制</string>
+    <string name="shape1_deleted">已删除一个图形</string>
+    <string name="shape_n_deleted">已删除 %d 个图形</string>
+    <string name="invalid_gridcell">单元格太小或太大</string>
+    <string name="undo">撤销</string>
+    <string name="redo">恢复</string>
+    <string name="undo_ok">已撤销</string>
+    <string name="redo_ok">已恢复</string>
+    <string name="nodept">顶点</string>
+    <string name="centerpt">圆心</string>
+    <string name="midpt">中点</string>
+    <string name="quadpt">象限点</string>
+    <string name="crosspt">交点</string>
+    <string name="nearpt">线上点</string>
+    <string name="perppt">垂足</string>
+    <string name="tanpt">切点</string>
+    <string name="degrees">°</string>
+
+    <string name="select">选择</string>
+    <string name="erase">删除</string>
+    <string name="clear">清空</string>
+    <string name="splines">曲线</string>
+    <string name="line">线段</string>
+    <string name="lines">折线</string>
+    <string name="rayline">射线</string>
+    <string name="beeline">无穷直线</string>
+    <string name="bisector">角平分线</string>
+    <string name="triangle">三角形</string>
+    <string name="rect">矩形</string>
+    <string name="square">正方形</string>
+    <string name="diamond">菱形</string>
+    <string name="parallel">平行四边形</string>
+    <string name="quadrangle">四边形</string>
+    <string name="polygon">多边形</string>
+    <string name="dot">点</string>
+    <string name="note">标记</string>
+    <string name="ellipse">椭圆</string>
+    <string name="circle2p">圆心画圆</string>
+    <string name="circle3p">三点画圆</string>
+    <string name="arc_cse">圆规(圆弧)</string>
+    <string name="arc3p">三点圆弧</string>
+    <string name="groupshape">成组图形</string>
+    <string name="circle">圆</string>
+    <string name="roundrect">圆角矩形</string>
+    <string name="imageshape">图像块</string>
+    <string name="arc">圆弧</string>
+    <string name="grid">网格</string>
+    <string name="pathshape">路径块</string>
+    <string name="background">背景</string>
+    <string name="startRecord">开始记录</string>
+    <string name="stopRecord">停止记录</string>
+    <string name="play">播放</string>
+    <string name="eraser">橡皮擦</string>
+    <string name="save_part">保存片段</string>
+    <string name="pen_width">笔粗细</string>
+    <string name="teacher">教师</string>
+    <string name="student">学生</string>
+
+
+
+    <string name="new_fun_tip">新功能敬请期待！</string>
+    <string name="save">保存</string>
+    <string name="share">分享</string>
+
+
+    <string name="color_rgb">Red Green Blue (RGB)</string>
+    <string name="color_red">Red</string>
+    <string name="color_green">Green</string>
+    <string name="color_blue">Blue</string>
+    <string name="color_alpha">Alpha</string>
+    <string name="done">Done</string>
+    <string name="color_chooser_title">Color Chooser</string>
+    <string name="color_pre">preselected</string>
+
+    <string name="about_title">About Pocket Paint&#8230;</string>
+    <string name="about_content">Pocket Paint is a picture editor that is part of the Catrobat project.\n\nCatrobat is a visual programming language and set of creativity tools for smartphones, tablets, and mobile browsers.\n\nThe source code of Pocket Paint is mainly licensed under the %s.\nFor precise details of the license see the link below.\n\n</string>
+    <string name="about_license_url_text">Pocket Paint Source Code License</string>
+    <string name="about_catroid_url_text">About Catrobat</string>
+    <string name="about_link_template" translatable="false">&lt;a href=\"%1$s\">%2$s&lt;/a></string>
+    <string name="about_version">Version:</string>
+    <string name="license_type_paintroid" translatable="false">GNU Affero General Public License, v3</string>
+    <string name="catroid_url" translatable="false">http://catrobat.org/</string>
+    <string name="license_url" translatable="false">http://developer.catrobat.org/licenses</string>
+    <string name="stroke_title">"Tool Settings"</string>
+
+
+    <string name="animal">动物</string>
+    <string name="anmyes">动漫</string>
+    <string name="car">汽车</string>
+    <string name="chicken">公鸡</string>
+    <string name="duck">鸭子</string>
+    <string name="frog">青蛙</string>
+    <string name="penguin">企鹅</string>
+    <string name="goat">山羊</string>
+    <string name="rabbit">兔子</string>
+    <string name="snake">蛇</string>
+    <string name="owl">猫头鹰</string>
+    <string name="reindeer">驯鹿</string>
+    <string name="rat">老鼠</string>
+    <string name="dog">狗</string>
+    <string name="haizeiwang">海贼王</string>
+    <string name="mfsn">魔法少女</string>
+    <string name="huoying">火影忍者</string>
+    <string name="kenan">柯南</string>
+    <string name="quanyecha">犬夜叉</string>
+
+
+    <string name="title_activity_main_page">MainPageActivity</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_student">StudentActivity</string>
+
+
+</resources>

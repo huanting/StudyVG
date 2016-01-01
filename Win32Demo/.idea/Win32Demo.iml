@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="CPP_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgcmddraw.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgcmddraw.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawarc.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawarc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawline.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawline.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawrect.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbase/mgdrawrect.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/cmdbasic.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/cmdbasic.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgcmderase.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgcmderase.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawcircle.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawcircle.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawdiamond.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawdiamond.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawellipse.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawellipse.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawfreelines.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawfreelines.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawgrid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawgrid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawlines.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawlines.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawparallel.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawparallel.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawpolygon.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawpolygon.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawsplines.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawsplines.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawsquare.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawsquare.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawtriang.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdbasic/mgdrawtriang.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/cmdsubject.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/cmdsubject.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgactions.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgactions.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdmgr2.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdmgr2.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdmgr_.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdmgr_.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdselect.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgcmdselect.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgsnapimpl.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/cmdmgr/mgsnapimpl.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/export/girecordcanvas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/export/girecordcanvas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/export/svgcanvas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/export/svgcanvas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/fitcurves.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/fitcurves.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgbase.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgbase.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgbox.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgbox.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgcurv.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgcurv.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mglnrel.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mglnrel.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgmat.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgmat.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgnear.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgnear.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgnearbz.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgnearbz.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgpath.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgpath.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgpnt.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgpnt.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgvec.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/mgvec.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/nanosvg.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/geom/nanosvg.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/graph/gigraph.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/graph/gigraph.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/graph/gixform.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/graph/gixform.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgarc.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgarc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgarccross.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgarccross.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgbasesp.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgbasesp.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgcshapes.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgcshapes.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgdiamond.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgdiamond.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgdot.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgdot.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgellipse.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgellipse.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mggrid.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mggrid.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgline.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgline.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mglines.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mglines.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgparallel.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgparallel.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgpathsp.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgpathsp.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgrdrect.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgrdrect.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgrect.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgrect.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgsplines.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/gshape/mgsplines.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/jsonstorage/VGFileManager.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/jsonstorage/VGFileManager.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/jsonstorage/mgjsonstorage.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/jsonstorage/mgjsonstorage.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/record/playshapes.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/record/playshapes.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/record/recordshapes.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/record/recordshapes.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgbasicspreg.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgbasicspreg.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgcomposite.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgcomposite.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgimagesp.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgimagesp.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgshape.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgshape.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgshapes.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shape/mgshapes.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/mglayer.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/mglayer.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/mgshapedoc.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/mgshapedoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/spfactoryimpl.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/shapedoc/spfactoryimpl.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/test/RandomShape.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/test/RandomShape.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/test/testcanvas.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/test/testcanvas.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcGraphView.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcGraphView.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcMagnifierView.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcMagnifierView.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcShapeDoc.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/GcShapeDoc.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gicorerecord.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gicorerecord.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gicoreview.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gicoreview.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gimousehelper.cpp">
+      <sourceFolder url="file://$MODULE_DIR$/../TouchVg/vgcore/core/src/view/gimousehelper.cpp" isTestSource="false" />
+    </content>
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ViewAdapter.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/GiGdipCanvas.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/main.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
+    </content>
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library">
+      <library name="Header Search Paths">
+        <CLASSES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+          <root url="file://$MODULE_DIR$/../TouchVg/vgcore/core/include" />
+          <root url="file://$MODULE_DIR$/include" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include" />
+          <root url="file://C:/MinGW/lib/gcc/mingw32/4.8.1/include-fixed" />
+          <root url="file://C:/MinGW/mingw32/include" />
+          <root url="file://C:/MinGW/include" />
+          <root url="file://$MODULE_DIR$/../TouchVg/vgcore/core/include" />
+          <root url="file://$MODULE_DIR$/include" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+  </component>
+</module>

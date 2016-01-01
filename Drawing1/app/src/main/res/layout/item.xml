@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.energysh.drawshow.customview.SquareLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                                               android:layout_width="match_parent"
+                                               android:layout_height="wrap_content"
+                                               android:background="@drawable/item_bg" android:padding="10dp">
+    <ImageView
+        android:id="@+id/square_item_icon"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_launcher" />
+
+    <TextView
+        android:id="@+id/square_item_text_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#88000000"
+        android:textColor="#FFFFFF"
+        android:layout_alignParentBottom="true"
+        android:gravity="center_horizontal"
+        />
+    <View
+        android:id="@+id/press"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/item_press_bg"
+        />
+</com.energysh.drawshow.customview.SquareLayout>

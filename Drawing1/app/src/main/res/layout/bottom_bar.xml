@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+        <LinearLayout
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_pen"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:contentDescription="@string/splines"
+                android:src="@drawable/pencils_hard"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/btn_pen_blend"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:contentDescription="@string/splines"
+                android:src="@drawable/markers_large"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/btn_erase"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:contentDescription="@string/erase"
+                android:src="@drawable/erasers_hard"
+                android:background="@drawable/button_selector"/>
+
+            <ImageButton
+                android:id="@+id/btn_erase_blend"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:contentDescription="@string/erase"
+                android:src="@drawable/erasers_soft"
+                android:background="@drawable/button_selector"/>
+
+        </LinearLayout>

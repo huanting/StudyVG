@@ -1,0 +1,181 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:customSlider="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.energysh.drawshow.MainActivity">
+
+    <FrameLayout
+        android:id="@+id/animation_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"></FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/container"
+        android:layout_width="match_parent"
+        android:layout_height="fill_parent">
+
+    </FrameLayout>
+
+    <RelativeLayout
+        android:id="@+id/relativelayout_mask"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:id="@+id/imgbtn_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_selector"
+            android:src="@drawable/left" />
+
+        <ImageButton
+            android:id="@+id/imgbtn_right"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerInParent="true"
+            android:background="@drawable/button_selector"
+            android:src="@drawable/right" />
+
+
+        <!--顶部bar-->
+        <LinearLayout
+            android:id="@+id/linearlayout_righttop"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:orientation="horizontal"
+            android:visibility="gone">
+
+            <ImageButton
+                android:id="@+id/btn_start_record"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                android:contentDescription="@string/startRecord"
+                android:src="@drawable/start_record" />
+
+
+            <ImageButton
+                android:id="@+id/btn_save_part"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/button_selector"
+                android:contentDescription="@string/save_part"
+                android:src="@drawable/tb_save" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/linearlayout_topbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_toLeftOf="@id/linearlayout_righttop">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal">
+
+                <include layout="@layout/top_bar" />
+            </HorizontalScrollView>
+
+        </LinearLayout>
+
+        <!--底部右侧bar-->
+        <LinearLayout
+            android:id="@+id/linearlayout_fix_part"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="@dimen/layx5"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/btn_graphics"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/tb_style_circle"
+                android:visibility="gone" />
+
+            <ImageButton
+                android:id="@+id/btn_pen_width"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:background="@drawable/button_selector"
+                android:src="@drawable/pen_width_icon" />
+
+            <ImageButton
+                android:id="@+id/btn_color_select"
+                android:layout_width="@dimen/layx68"
+                android:layout_height="@dimen/layx68"
+                android:background="@drawable/color_picker_selector"
+                android:src="@color/color_chooser_red1" />
+
+
+        </LinearLayout>
+
+        <!--底部bar-->
+        <LinearLayout
+            android:id="@+id/linearlayout_bottom"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_toLeftOf="@id/linearlayout_fix_part"
+            android:orientation="horizontal">
+
+            <HorizontalScrollView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:scrollbars="horizontal">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content">
+
+                    <!--底部bar-->
+                    <include
+                        android:id="@+id/bottom_bar"
+                        layout="@layout/bottom_bar" />
+
+                    <!--graph bar-->
+                    <LinearLayout
+                        android:id="@+id/linearlayout_graphics"
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/layx68"
+                        android:layout_toLeftOf="@id/linearlayout_bottom"
+                        android:visibility="gone">
+
+                        <include layout="@layout/graph_buttons_bar" />
+                    </LinearLayout>
+
+                </LinearLayout>
+            </HorizontalScrollView>
+        </LinearLayout>
+
+
+        <!--画笔宽度-->
+        <com.energysh.drawshow.customview.Slider
+            android:id="@+id/seekbar_line_width"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/linearlayout_fix_part"
+            android:layout_centerInParent="true"
+            android:background="#1E88E5"
+            customSlider:max="20"
+            customSlider:min="0"
+            customSlider:showNumberIndicator="true"
+            android:visibility="gone"/>
+
+
+    </RelativeLayout>
+
+</FrameLayout>
